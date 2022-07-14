@@ -1,0 +1,24 @@
+body{
+    background-color: #f0f2f5;
+    overflow: hidden;
+  }
+
+  .mainContent{
+      display: flex;
+      height: 90vh;
+      justify-content: space-between;
+      overflow-x: hidden;
+      overflow-y: auto;
+      }
+      @media all and (max-width: 767px){
+        .mainContent{
+          display: flex;
+          height: 80vh;
+          justify-content: space-between;
+          overflow-x: hidden;
+          overflow-y: auto;
+          }
+        .desktop_only{
+          display: none;
+        }
+      }

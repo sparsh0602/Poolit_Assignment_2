@@ -1,0 +1,22 @@
+.feed{
+    flex: 1;
+    padding: 30px 150px;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin-top: -10px;
+    margin-right: 400px;
+}
+
+@media all and (max-width: 767px){
+    .feed{
+        margin-right: 0px;
+        float: left;
+        margin-top: -20px;
+        margin-left: -150px;
+    }
+
+    .mobile{
+        display: block;
+    }
+}

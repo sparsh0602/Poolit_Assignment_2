@@ -1,0 +1,45 @@
+{
+  "posts": [
+    {
+      "name": "sparsh aggarwal",
+      "email": "SPARSH@GMAIL.COM",
+      "password": "Sparsh06",
+      "dob": "2002-02-06",
+      "feed": [
+        {
+          "feedData": "hello!!!",
+          "feedDate": "2",
+          "feedMonth": "July",
+          "feedTime": "15:00"
+        },
+        {
+          "feedData": "hello2",
+          "feedDate": "2",
+          "feedMonth": "July",
+          "feedTime": "15:18"
+        }
+      ],
+      "comments": [
+        {
+          "name": "sparsh aggarwal",
+          "comment": "hello2",
+          "index": 0
+        }
+      ],
+      "id": 1
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "details": [
+    {}
+  ]
+}

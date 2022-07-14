@@ -1,0 +1,302 @@
+.newFeed{
+    width: 47vw;
+}
+.newFeed_info{
+    /* display: flex; */
+    width: 650px;
+    height: 80.5px;
+    background-color: white;
+    border-radius: 10px 10px 0px 0px;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.newFeed_avatar{
+    margin: 10px 10px;
+}
+.newFeed_info p{
+    margin-top: 13px;
+    font-weight: 600;
+    margin-left: -5px;
+   
+}
+.newFeed_info span{
+    margin-top: 13px;
+}
+
+.newFeed_like_count{
+    display: flex;
+    width: 650px;
+    background-color: white;
+    height: 50px;
+}
+.newFeed_like_count p{
+    margin-top: 18px;
+    margin-left: 5px;
+    color: gray;
+    font-weight: 500;
+}
+.newFeed_like_count_options{
+    width: 650px;
+    height: 60px;
+    background-color: white;
+    display: flex;
+}
+.newFeed_like_count_option{
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.newFeed_like_count_options span{
+    color: gray;
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 17px;
+}
+.newFeed_like_count_option:hover{
+    background-color: rgb(211 211 211/31%);
+    padding: 5px;
+    border-radius: 10px;
+}
+.newFeed_content{
+    width: 650px;
+    min-height: 10px;
+    background-color: white;
+    display: flex;
+    font-weight: 600;
+    
+    margin-top: 0vw !important;
+}
+.newFeed_content p{
+    width: 95vw;
+    min-height: 10px;
+    text-align: left;
+    margin-left: 2vw;
+}
+.newFeed_time{
+    color: gray;
+    margin-left: -3vw;
+    margin-top: 37px;
+}
+.newFeed_info_inner_container{
+    display: flex;
+    width: 100vw;
+    position: relative;
+}
+
+.newFeed_dropdown{
+    background-color: white !important;
+    outline: none;
+    border: none;
+    color: gray;
+}
+.newFeed_dropdown_container{
+    color: gray;
+    margin-left: 420px;
+    margin-top: 1vw;
+}
+.delete-button{
+    outline: none;
+    border: 0;
+    width: 100%;
+    text-align: left;
+}
+.delete-button:hover{
+    outline: none;
+    border: 0 solid white;
+    background-color: #e9ecef;
+}
+.action-button{
+    background-color: white;
+    border: 0;
+}
+.action-button:hover{
+    background-color: white;
+    border: 0;
+
+}
+.commentSection{
+    width: 650px;
+    min-height: 0px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    display: none;
+}
+.commentSection_commentBox{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    padding-bottom: 15px;
+    margin-top: 10px;
+}
+.commentSection_input{
+    width: 550px;
+    border-radius: 20px;
+    background-color: #dee2e6;
+    border: 0;
+    color: rgb(80, 74, 74);
+    outline: none;
+    padding-left: 13px;
+}
+.blankSpace{
+    min-width: 550px;
+    min-height: 20px;
+    background-color: white;
+}
+.newFeed_input{
+    width: 550px;
+    border-radius: 20px;
+    background-color: #dee2e6;
+    border: 0;
+    color: rgb(80, 74, 74);
+    outline: none;
+    padding-left: 13px;
+    height: 40px;
+    
+}
+.newFeed_edit_container{
+    background-color: white;
+    width: 650px;
+    min-height: 0px;
+}
+.newFeed_edit_container{
+    display: none;
+}
+.newFeed_delete_container{
+    background-color: white;
+    width: 650px;
+    min-height: 0px;
+    display: none;
+}
+.newFeed_delete_container button{
+    /* border:1px solid black; */
+    margin-right: 15px;
+    color: white;
+    font-weight: 600;
+    
+}
+.newFeed_delete_container p{
+    font-weight: 600;
+}
+.delete_feed_button{
+background-color: tomato !important;
+}
+.cancel_delete_feed_button{
+    background-color: rgb(80, 74, 74) !important;
+}
+@media all and (max-width: 767px){
+    
+    .newFeed_info{
+        display: flex;
+        width: 95vw;
+        height: 80.5px;
+        background-color: white;
+        border-radius: 10px 10px 0px 0px;
+        margin-top: 20px;
+        margin-left: 2.5vw;
+    }
+    .newFeed_like_count{
+        display: flex;
+        width: 95vw;
+        background-color: white;
+        height: 50px;
+        margin-left: 2.5vw;
+    }
+    .newFeed_like_count_options{
+        width: 95vw;
+        height: 60px;
+        background-color: white;
+        display: flex;
+        margin-left: 2.5vw;
+    }
+    .newFeed_like_count_option{
+        cursor: pointer;
+        margin-top: 10px;
+        margin-left: 30px;
+    }
+    .newFeed_content{
+        width: 95vw;
+        min-height: 10px;
+        background-color: white;
+        display: flex;
+        margin-top: -5vw;
+        font-weight: 600;
+        margin-left: 2.5vw;
+      
+    }
+    .newFeed_content p{
+        width: 95vw;
+        min-height: 10px;
+        text-align: left;
+        margin-left: 5vw;
+    }
+    .newFeed_time{
+        width: 95vw;
+        margin-left: -49vw;
+        margin-top: 37px;
+    }
+    .newFeed_dropdown{
+        background-color: white !important;
+        outline: none;
+        border: none;
+        color: gray;
+    }
+    .newFeed_dropdown_container{
+        color: gray;
+        margin-left: 30px !important;
+        margin-top: 1vw;
+    }
+    .commentSection{
+        width: 95vw;
+        min-height: 0px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        margin-left: 2.5vw;
+    }
+    .blankSpace{
+        min-width: 95vw;
+        min-height: 4vw;
+        background-color: white;
+    }
+    .newFeed_input{
+        width: 90vw;
+        border-radius: 20px;
+        background-color: #dee2e6;
+        border: 0;
+        color: rgb(80, 74, 74);
+        outline: none;
+        margin-left: 2.5vw;
+        height: 40px;
+        
+    }
+    .newFeed_edit_container{
+        width: 95vw;
+        min-height: 0px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        margin-left: 2.5vw;
+    }
+    .newFeed_edit_container{
+        display: none;
+    }
+    .dropdown2 button{
+        width: 40px;
+        margin-left: -20px;
+        height: 40px;
+        outline: 0;
+    }
+    .dropdown2 svg{
+        margin-top: -5px;
+        margin-left: -5px;
+    }
+    .newFeed_delete_container{
+        width: 95vw;
+        min-height: 0px;
+        background-color: white;
+        display: none;
+        flex-direction: column;
+        margin-left: 2.5vw;
+    }
+}

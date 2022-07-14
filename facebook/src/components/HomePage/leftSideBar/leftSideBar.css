@@ -1,0 +1,8 @@
+.sideBar{
+    margin-top: 20px;
+}
+@media all and (max-width: 767px){
+    .sideBar{
+        display: none;
+    }
+}

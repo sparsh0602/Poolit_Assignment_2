@@ -1,0 +1,179 @@
+.messageSender_Container{
+    width: 650px;
+    height: 144.5px;
+    background-color: white;
+    border: 0px solid white;
+    box-shadow: 0 1px 2px var(--shadow-2);
+    margin-top: 20px;
+    border-radius: 10px;
+   
+}
+.messageSender{
+    display: flex;
+}
+
+.messageSender_button{
+    width: 540px;
+    height: 40.55px;
+    border-radius: 30px;
+    background-color: rgb(211 211 211/31%);
+    border: 0 rgb(211 211 211);
+    margin-top: 14px;
+    margin-left: 16px;
+    color: gray;
+    text-align: left;
+    font-weight: 500;
+}
+.messageSender_button:hover{
+    background-color: rgb(211 211 211);
+    border: 0 rgb(211 211 211);
+    color: gray;
+}
+
+.messageSender .MuiAvatar-root{
+    
+    margin-top: 14px;
+    margin-left: 16px;
+}
+
+.messageSender_options{
+    display: flex;
+    margin-left: 60px;
+    margin-top: 36px;
+}
+.messageSender_option{
+    cursor: pointer;
+    display: flex;
+    width: 250px;
+    height: 40px;
+}
+.messageSender_option p{
+    margin-left: 5px;
+}
+.messageSender_title{
+   color: black;
+   margin: auto;
+   margin-left: 170px;
+   font-weight: 600;
+}
+.messageSender_close_button{
+    background-color: rgb(211 211 211);
+    color: black;
+    font-weight: 700;
+    border-radius: 200px;
+    cursor: pointer;
+}
+
+.modal_body_title{
+    display: flex;
+    align-items: center;
+    margin-top: -15px;
+    margin-left: -5px;
+}
+.modal_body_title p{
+    margin-top: 19px;
+    margin-left: 10px;
+    font-weight: 600;
+}
+.text_area{
+    margin-top: 15px;
+    width: 500px;
+}
+.text_area textarea{
+    width: 450px;
+    margin-left: -30px;
+    height: 120px;
+    border: 0px white;
+    font-weight: 400;
+    outline: none;
+    font-size: 20px;
+}
+.modal_popup{
+    margin-top: 220px;
+    margin-left: -30px;
+    
+}
+.addPost{
+    display: flex;
+    justify-content: space-between;
+    border: 0.2px solid rgb(211 211 211);
+    width: 450px;
+    height: 58px;
+    border-radius: 10px;
+    padding: 12px;
+    box-shadow: 0.5px 0.5px rgb(211 211 211);
+}
+.addPost_button{
+    background-color: white;
+    border: 0px white;
+    outline: none;
+    color: #000 !important;
+    font-weight: 600 !important;
+    text-decoration: none;
+    font-size: 12px !important;
+}
+.addPost_options svg{
+    cursor: pointer;
+    margin-right: 5px;
+    font-size: 30px;
+}
+.addPost_options svg:hover{
+    background-color: rgb(211 211 211/31%);
+}
+.addPost_footer_post_button{
+    width: 450px;
+    margin-right: 15px;
+    font-weight: 600;
+}
+@media all and (max-width: 767px){
+    .messageSender_Container{
+        width: 95vw;
+        margin-left: 2.5vw;
+        height: 13vh;
+    }
+    .messageSender_options{
+        display: none;
+    }
+    .messageSender_button{
+        width: 70vw;
+        height: 70.55px;
+        border-radius: 30px;
+        background-color: white;
+        border: 1px solid rgb(211 211 211);
+        margin-top: 14px;
+        margin-left: 16px;
+        color: gray;
+        text-align: left;
+        font-weight: 500;
+    }
+    .messageSender_Container .MuiAvatar-root{
+        margin-top: 30px;
+    }
+    .modal_popup{
+        margin-top: 220px;
+        margin-left: 0;
+    }
+    .addPost{
+        display: none;
+    }
+    .text_area{
+        margin-top: 15px;
+        width: 80vw;
+        margin-left: 7vw;
+    }
+    .text_area textarea{
+       
+        width: 80vw;
+        height: 120px;
+        border: 0px white;
+        font-weight: 400;
+        outline: none;
+        font-size: 20px;
+    }
+    .modal_body_title p{
+        margin-top: 40px;
+    }
+    .messageSender_title{
+        margin-left: 27vw;
+    }
+}

@@ -1,0 +1,27 @@
+.previousComments{
+    display: flex;
+    margin-top: 20px;
+}
+.previousCommentBar{
+    min-width: 180px;
+    border-radius: 20px;
+    background-color: #dee2e6;
+    margin-left: 5px;
+    max-width: 200px;
+}
+.commentName{
+    font-size: 12px;
+    font-weight: 700;
+    text-align: left;
+    padding-left: 17px;
+    padding-top: 5px;
+    margin-bottom: 0px;
+}
+.comment{
+    font-size: 13px;
+    text-align: left;
+    padding-left: 17px;
+    padding-bottom: 2px;
+    margin-right: 2px;
+
+}

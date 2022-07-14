@@ -1,0 +1,63 @@
+@media screen and (max-width: 650px){
+    .itemBox{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-top: 10vw;
+      }
+
+      .item{
+        margin-top: 2vw;
+        width: 25vw;
+        height: 25vw;
+        border-radius: 2vw;
+       
+      }
+
+      .startButton{
+        width: 36vw;
+        height: 9vw;
+        border-radius: 2vw;
+        border: 0.5vw solid black;
+        font-weight: 800;
+        background-color: green;
+        color: white;
+      }
+
+      .currentLevel{
+        font-size: 5vw;
+        font-weight: 800;
+        margin-top: 5vw;
+        margin-left: 2vw;
+      }
+
+      .gameResult{
+        position: absolute;
+        display: flex;
+        width: 30vw;
+        height: 15vw;
+        background-color: tomato;
+        border: 0.5vw solid black;
+        justify-content: center;
+        align-items: center;
+        border-radius: 2vw;
+        top: 25%;
+        left: 37%;
+        font-size: 3vw;
+        font-weight: 800;
+        display: none;
+      }
+
+      .scoreBoard{
+        position: absolute;
+        display: flex;
+        top: 35%;
+        left: 33%;
+        font-weight: 800;
+        font-size: 3vw;
+        color: black;
+        background-color: violet;
+        padding: 1vw;
+        border-radius: 1vw;
+        display: none;
+      }
+}
