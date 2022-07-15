@@ -1,3 +1,9 @@
+# Flow of readme file
+1) video link of working website</br>
+2)images desktop</br>
+3)images small device</br>
+4)code tree explanation
+
 <a href="https://drive.google.com/file/d/19NdJW3olc2M2oxsNMKoNCScZlnD1HiJD/view?usp=sharing">Working Website Video Link</a>
 
 
