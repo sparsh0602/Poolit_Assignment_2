@@ -8,7 +8,7 @@
 
 # images desktop
 
-<img src="./images/1.png" /> </br> </br>
+<img src="./images/1.png" style="border:2px solid black"/> </br> </br>
 <img src="./images/2.png" /></br> </br>
 <img src="./images/3.png" /></br> </br>
 <img src="./images/4.png" /></br> </br>
