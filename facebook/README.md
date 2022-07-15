@@ -1,5 +1,5 @@
 # Flow of readme file
-1) video link of working website</br>
+1)video link of working website</br>
 2)images desktop</br>
 3)images small device</br>
 4)code tree explanation
