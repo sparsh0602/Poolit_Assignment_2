@@ -16,7 +16,7 @@
 
 # images small device
 
-<img src="./images/1.1png.png" /> </br> </br>
+<img src="./images/1.1png.png" width="50%"/> </br> </br>
 <img src="./images/1.2png.png" /></br> </br>
 <img src="./images/1.3png.png" /></br> </br>
 <img src="./images/1.4png.png" /></br> </br>
