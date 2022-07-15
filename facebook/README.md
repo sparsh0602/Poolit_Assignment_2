@@ -14,6 +14,13 @@
 <img src="./images/4.png" /></br> </br>
 <img src="./images/5.png" /></br> </br>
 
+#images small device
+
+<img src="./images/1.1png" /> </br> </br>
+<img src="./images/1.2png" /></br> </br>
+<img src="./images/1.3png" /></br> </br>
+<img src="./images/1.4png" /></br> </br>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
