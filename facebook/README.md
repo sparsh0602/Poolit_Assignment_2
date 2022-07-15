@@ -8,11 +8,11 @@
 
 # images desktop
 
-<img src="./images/1.png" />
-<img src="./images/2.png" />
-<img src="./images/3.png" />
-<img src="./images/4.png" />
-<img src="./images/5.png" />
+<img src="./images/1.png" /> </br> </br>
+<img src="./images/2.png" /></br> </br>
+<img src="./images/3.png" /></br> </br>
+<img src="./images/4.png" /></br> </br>
+<img src="./images/5.png" /></br> </br>
 
 # Getting Started with Create React App
 
