@@ -2,7 +2,7 @@
 1)video link of working website</br>
 2)images desktop</br>
 3)images small device</br>
-4)code tree explanation
+4)about react
 
 <a href="https://drive.google.com/file/d/19NdJW3olc2M2oxsNMKoNCScZlnD1HiJD/view?usp=sharing"><h3>Working Website Video Link</h3></a>
 
