@@ -16,10 +16,10 @@
 
 # images small device
 
-<img src="./images/1.1png.png" width="50%"/> </br> </br>
-<img src="./images/1.2png.png" /></br> </br>
-<img src="./images/1.3png.png" /></br> </br>
-<img src="./images/1.4png.png" /></br> </br>
+<img src="./images/1.1png.png" width="50%" height="50%"/> </br> </br>
+<img src="./images/1.2png.png" width="50%" height="50%"/></br> </br>
+<img src="./images/1.3png.png" width="50%" height="50%"/></br> </br>
+<img src="./images/1.4png.png" width="50%" height="50%"/></br> </br>
 
 # Getting Started with Create React App
 
