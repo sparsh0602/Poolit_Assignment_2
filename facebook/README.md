@@ -14,12 +14,12 @@
 <img src="./images/4.png" /></br> </br>
 <img src="./images/5.png" /></br> </br>
 
-#images small device
+# images small device
 
-<img src="./images/1.1png" /> </br> </br>
-<img src="./images/1.2png" /></br> </br>
-<img src="./images/1.3png" /></br> </br>
-<img src="./images/1.4png" /></br> </br>
+<img src="./images/1.1png.png" /> </br> </br>
+<img src="./images/1.2png.png" /></br> </br>
+<img src="./images/1.3png.png" /></br> </br>
+<img src="./images/1.4png.png" /></br> </br>
 
 # Getting Started with Create React App
 
